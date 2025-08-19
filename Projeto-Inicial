@@ -1,0 +1,10 @@
+(https://github.com/user-attachments/files/21873742/Contador.py)
+Contador em python
+
+valor_inicial = int(input("Digite o valor inicial da sequência decrescente: "))
+contador = 0
+for num in range(valor_inicial, -1, -1):
+    print(num)
+    contador += 1
+
+print(f"Quantidade de valores na sequência: {contador}")
